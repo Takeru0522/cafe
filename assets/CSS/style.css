@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.top-page{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/shop.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+
+li{
+  color: white;
+  font-size: 25px;
+  margin-left: 80px;
+  float: left;
+  padding-top: 20px;
+  font-family: 'Allura', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{ 
+  font-size: 35px;
+}
+
+.main-visual{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-visual h1 {
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  font-family: 'Allura', cursive;
+}
+
+#about{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Allura', cursive;
+  background-image: url(../img/hot\ coffee.jpg);
+  background-size: cover;
+}
+
+#about h1{
+  font-size: 80px;
+  color: white;
+  padding-top: 60px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-contents{
+  color: white;
+  padding: 10px 40px;
+  font-size: 30px;
+}
+
+.about-contents p{
+  color: white;
+}
+
+#coffee h1{
+  font-size: 80px;
+  font-family: 'Allura', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-right: 10px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coffee-name{
+  font-size: 40px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Itim', cursive;
+}
+
+#food h1{
+  font-size: 80px;
+  font-family: 'Allura', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-right: 10px;
+}
+
+.card > img{
+  height: 200px;
+  padding: 10px;
+
+}
+
+#access h1{
+  font-size: 80px;
+  font-family: 'Allura', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#reservation h1{
+  font-size: 80px;
+  font-family: 'Allura', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-right: 10px;
+}
+
+#reservation {
+  margin-bottom: 230px;
+}
+
+.reservation-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+input, textarea {
+  width: 40%;
+  font-size: 23px;
+  margin-bottom: 18px;
+  padding: 3px 12px;
+}
+
+input, textarea, button {
+  border-radius: 5px;
+}
+
+textarea {
+  width: 40%;
+}
+
+button {
+  width: 140px;
+  font-size: 23px;
+  padding: 7px;
+  height: 60px;
+  background-color: #223644;
+  margin-top: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(243, 247, 247);
+  color: #223644;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #3c3e3f;
+}
+
+footer p {
+  color: white;
+}
